@@ -10,12 +10,13 @@
     </parent>
     <groupId>com.jit.twit.kafka</groupId>
     <artifactId>jit.kafka</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>jit.kafka</name>
     <description>Demo project for Spring Boot</description>
     <modules>
         <module>twitter-to-kafka-service</module>
         <module>app-config-data</module>
+        <module>kafka</module>
     </modules>
     <packaging>pom</packaging>
     <url/>
