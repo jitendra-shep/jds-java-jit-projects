@@ -46,7 +46,17 @@
         <spring-kafka>3.3.1</spring-kafka>
         <spring-retry>2.0.11</spring-retry>
         <spring-webflux>3.4.1</spring-webflux>
+        <kafka-avro-serializer>7.8.0</kafka-avro-serializer>
+        <jakarta.annotation-api>3.0.0</jakarta.annotation-api>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>https://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -57,6 +67,11 @@
             <dependency>
                 <groupId>com.jit.twit.kafka</groupId>
                 <artifactId>common-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jit.twit.kafka</groupId>
+                <artifactId>kafka-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -74,7 +89,6 @@
                 <artifactId>spring-boot-starter-webflux</artifactId>
                 <version>${spring-webflux}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework.retry</groupId>
                 <artifactId>spring-retry</artifactId>
@@ -102,6 +116,16 @@
                 <groupId>org.apache.avro</groupId>
                 <artifactId>avro</artifactId>
                 <version>${avro-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.confluent</groupId>
+                <artifactId>kafka-avro-serializer</artifactId>
+                <version>${kafka-avro-serializer}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>${jakarta.annotation-api}</version>
             </dependency>
 
         </dependencies>
