@@ -7,10 +7,9 @@
         <groupId>com.jit.twit.kafka</groupId>
         <artifactId>jit.kafka</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>kafka-admin</artifactId>
+    <artifactId>common-config</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,21 +19,20 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.jit.twit.kafka</groupId>
             <artifactId>app-config-data</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.jit.twit.kafka</groupId>
-            <artifactId>common-config</artifactId>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
 
