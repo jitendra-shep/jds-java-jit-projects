@@ -71,7 +71,17 @@
             </dependency>
             <dependency>
                 <groupId>com.jit.twit.kafka</groupId>
+                <artifactId>kafka-admin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jit.twit.kafka</groupId>
                 <artifactId>kafka-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jit.twit.kafka</groupId>
+                <artifactId>kafka-producer</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

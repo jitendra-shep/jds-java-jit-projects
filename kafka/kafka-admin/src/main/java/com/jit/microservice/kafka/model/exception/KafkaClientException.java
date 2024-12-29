@@ -1,4 +1,4 @@
-package com.jit.microservice.kafka.admin.exception;
+package com.jit.microservice.kafka.model.exception;
 
 /**
  * Exception class for Kafka client error situations.

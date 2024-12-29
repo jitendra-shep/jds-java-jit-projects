@@ -1,8 +1,7 @@
 package com.jit.microservice.kafka.producer.config.service.impl;
 
 
-import com.google.common.util.concurrent.*;
-import com.jit.microservice.kafka.admin.TwitterAvroModel;
+import com.jit.microservice.kafka.avro.model.TwitterAvroModel;
 import com.jit.microservice.kafka.producer.config.service.KafkaProducer;
 import jakarta.annotation.PreDestroy;
 import org.apache.kafka.clients.producer.RecordMetadata;

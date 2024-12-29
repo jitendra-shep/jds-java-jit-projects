@@ -1,4 +1,4 @@
-package com.jit.microservice.kafka.admin.config;
+package com.jit.microservice.kafka.model.config;
 
 import com.jit.microservice.config.KafkaConfigData;
 import org.apache.kafka.clients.CommonClientConfigs;

@@ -1,4 +1,4 @@
-package com.jit.microservice.kafka.admin.config;
+package com.jit.microservice.kafka.model.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
