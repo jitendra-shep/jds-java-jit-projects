@@ -1,4 +1,4 @@
-package com.jit.microservice.kafka.producer.config.service;
+package com.jit.microservice.kafka.producer.service;
 
 import org.apache.avro.specific.SpecificRecordBase;
 

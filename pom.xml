@@ -8,7 +8,7 @@
         <version>3.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.jit.twit.kafka</groupId>
+    <groupId>com.jit.twitter.kafka.microservice</groupId>
     <artifactId>jit.kafka</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>jit.kafka</name>
@@ -60,27 +60,27 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.jit.twit.kafka</groupId>
+                <groupId>com.jit.twitter.kafka.microservice</groupId>
                 <artifactId>app-config-data</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jit.twit.kafka</groupId>
+                <groupId>com.jit.twitter.kafka.microservice</groupId>
                 <artifactId>common-config</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jit.twit.kafka</groupId>
+                <groupId>com.jit.twitter.kafka.microservice</groupId>
                 <artifactId>kafka-admin</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jit.twit.kafka</groupId>
+                <groupId>com.jit.twitter.kafka.microservice</groupId>
                 <artifactId>kafka-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.jit.twit.kafka</groupId>
+                <groupId>com.jit.twitter.kafka.microservice</groupId>
                 <artifactId>kafka-producer</artifactId>
                 <version>${project.version}</version>
             </dependency>
