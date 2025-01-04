@@ -8,11 +8,11 @@ logging:
 
 spring:
   application:
-    name: configserver
+    name: "configserver"
   cloud:
     config:
       server:
         git:
-          uri: file:///Users/jitendra/Projects/Intellij/jit.kafka/config-server-repository
+          uri: https://github.com/jitendra-shep/config-server-repository.git
           clone-on-start: true
-    fail-fast: true
+      fail-fast: true

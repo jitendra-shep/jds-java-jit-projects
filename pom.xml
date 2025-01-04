@@ -21,7 +21,7 @@
         <module>kafka/kafka-admin</module>
         <module>kafka/kafka-producer</module>
         <module>common-config</module>
-        <module>config-server</module>
+        <module>configserver</module>
     </modules>
     <packaging>pom</packaging>
     <url/>
