@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    ROOT: INFO
+    org.spring.framework.cloud.config: DEBUG
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://Users/jitendra/Projects/Intellij/jit.kafka/config-server-repository
+          clone-on-start: true
+    fail-fast: true
