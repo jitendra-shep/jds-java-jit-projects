@@ -23,6 +23,7 @@
         <module>common-config</module>
         <module>configserver</module>
         <module>kafka/kafka-consumer</module>
+        <module>kafka-to-elastic-service</module>
     </modules>
     <packaging>pom</packaging>
     <url/>
@@ -86,6 +87,11 @@
             <dependency>
                 <groupId>com.jit.twitter.kafka.microservice</groupId>
                 <artifactId>kafka-producer</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jit.twitter.kafka.microservice</groupId>
+                <artifactId>kafka-consumer</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

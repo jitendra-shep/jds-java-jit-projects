@@ -1,0 +1,9 @@
+spring:
+  config:
+    import:
+      - "configserver:http://localhost:8888/"
+  application:
+    name: kafka-to-elastic-service
+  cloud:
+    config:
+      name: kafka-to-elastic-service,config-client
